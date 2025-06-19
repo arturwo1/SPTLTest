@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Test page" />
+  <meta name="keywords" content="HTML, JavaScript, TeSt" />
+  <meta name="author" content="arturwol" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Test Page" />
+  <meta property="og:description" content="Test page" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bejewelled-sprite-fa1708.netlify.app/" />
+  <meta property="og:image" content="https://tr.rbxcdn.com/180DAY-40025da375baf792b5c49e5be1d1f3d0/768/432/Image/Webp/noFilter" />
+  <meta property="og:site_name" content="Test" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Test Page" />
+  <meta name="twitter:description" content="Test page" />
+  <meta name="twitter:image" content="https://tr.rbxcdn.com/180DAY-40025da375baf792b5c49e5be1d1f3d0/768/432/Image/Webp/noFilter" />
+  <meta name="twitter:site" content="@test" />
+  <title>Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input { width: 100px; margin: 5px; }
+  </style>
+</head>
+<body>
+  <input type="text" id="userInput" placeholder="Write a text here" />
+  <button onclick="showAlert()">Show</button>
+
+  <script>
+    function showAlert() {
+      const input = 'You wrote: "'+document.getElementById('userInput').value+'"';
+      alert(input);
+    }
+  </script>
+</body>
+</html>
